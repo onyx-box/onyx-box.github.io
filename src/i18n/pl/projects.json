@@ -25,5 +25,8 @@
         "integration": "Integracja z API backendowym"
       }
     }
+  },
+  "actions": {
+    "show": "Zobacz projekt"
   }
 }

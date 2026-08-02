@@ -1,7 +1,8 @@
 {
   "name": "Onyx Box",
   "my-role": "",
-  "": "",
+  "competencies": "Najważniejsze kompetencje",
+  "cooperation": "Otwarty na współpracę B2B",
   "seo": {
     "home": {
       "title": "Onyx Box - tworzenie oprogramowania",
@@ -18,7 +19,7 @@
     "description": "Projektuję i rozwijam aplikacje webowe, backendy, integracje oraz automatyzacje.",
     "fullName": "Michał Skrzyński",
     "about": "Pracuję z backendem, frontendem, bazami danych, integracjami i Linuxem.",
-    "exp": "18+ lat tworzenia oprogramowania komercyjnego.",
+    "exp": "Ponad 18 lat tworzę oprogramowanie biznesowe rozwiązujące realne problemy.",
     "email": "skrzynski.michal@gmail.com"
   },
   "sections": {

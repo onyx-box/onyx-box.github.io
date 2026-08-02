@@ -16,7 +16,7 @@ export function ProjectCard({project}: { project: Project }) {
                 ? <img src={project.cover} alt={project.title}/>
                 : <div className="placeholder">&lt;/&gt;</div>
             }
-            <div>
+            <div className="project-body">
 
                 <p className="eyebrow">
                     {t(`categories.${project.category}`)}
@@ -24,9 +24,9 @@ export function ProjectCard({project}: { project: Project }) {
 
                 <h3>{project.title}</h3>
 
-                <p>
+                {project.translationKey && <p>
                     {t(`${project.translationKey}.summary`)}
-                </p>
+                </p>}
 
                 <div className="tags">
                     {project.stack.map(tag =>
@@ -35,7 +35,7 @@ export function ProjectCard({project}: { project: Project }) {
                 </div>
 
                 <Link to={routeFor(l, 'projects', project.slug)}>
-                    {t('viewProject')}
+                    {t('actions.show')}
                 </Link>
 
             </div>

@@ -25,5 +25,8 @@
         "integration": "Backend API integration"
       }
     }
+  },
+  "actions": {
+    "show": "View project"
   }
 }

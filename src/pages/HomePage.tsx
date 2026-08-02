@@ -23,11 +23,24 @@ export function HomePage() {
                     </p>
                     <h1>{t('me.title')}</h1>
                     <p>{t('me.description')}</p>
-                    <Link className="button" to={routeFor(l, 'projects')}>{t('actions.viewProjects')}</Link>
+                    <div className="actions">
+                        <Link className="button primary" to={routeFor(l, 'projects')}>{t('actions.viewProjects')}</Link>
+                        <a className="button secondary" href="#contact">Let’s talk</a>
+                    </div>
+                    <div className="hero-links">
+                        <a href="https://github.com/onyx-box" target="_blank" rel="noopener">GitHub ↗</a>
+                        <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn ↗</a>
+                        <a href="https://buymeacoffee.com/onyxbox" target="_blank" rel="noopener">Buy Me a Coffee ☕</a>
+                    </div>
                 </div>
-                <aside>
-                    <strong>{t('me.fullName')}</strong>
+                <aside class="hero-card" aria-label={t('competencies')}>
+                    <div className="status"><span></span> {t('cooperation')}</div>
+                    <strong className="hero-full-name">{t('me.fullName')}</strong>
                     <p>{t('me.exp')}</p>
+                    <div className="stack">
+                        <span>Java</span><span>Spring Boot</span><span>React</span><span>.NET</span>
+                        <span>PostgreSQL</span><span>Docker</span><span>REST API</span><span>Integracje</span>
+                    </div>
                 </aside>
             </section>
             <section className="section dark">
@@ -44,7 +57,7 @@ export function HomePage() {
                 <h2>{t('nav.services')}</h2>
                 <div className="services">
                     {services.map(({key, icon}) => (
-                        <article key={key}>
+                        <article key={key} className="service">
                             <div className="icon">{icon}</div>
 
                             <h3>{t(`services.${key}.title`)}</h3>

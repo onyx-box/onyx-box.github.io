@@ -1,5 +1,8 @@
 {
   "name": "Onyx Box",
+  "my-role": "",
+  "competencies": "The most important competencies",
+  "cooperation": "Open to B2B cooperation",
   "seo": {
     "home": {
       "title": "Onyx Box - Software Engineering",
@@ -16,7 +19,7 @@
     "description": "I design and build web applications, backend systems, integrations and automation.",
     "fullName": "Michał Skrzyński",
     "about": "I work across backend, frontend, databases, integrations and Linux.",
-    "exp": "18+ years building commercial software.",
+    "exp": "18+ years building business software that solves real problems.",
     "email": "skrzynski.michal@gmail.com"
   },
   "sections": {
