@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://onyx-box.github.io/sitemap.xml

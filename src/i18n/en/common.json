@@ -1,0 +1,57 @@
+{
+  "name": "Onyx Box",
+  "seo": {
+    "home": {
+      "title": "Onyx Box - Software Engineering",
+      "description": "Web applications, backend, integrations and automation."
+    },
+    "projects": {
+      "title": "Projects - Onyx Box",
+      "description": "Selected projects, applications and software developed by Onyx Box."
+    }
+  },
+  "me": {
+    "role": "FULL-STACK DEVELOPER · JAVA / REACT / .NET",
+    "title": "Software engineering for real business problems.",
+    "description": "I design and build web applications, backend systems, integrations and automation.",
+    "fullName": "Michał Skrzyński",
+    "about": "I work across backend, frontend, databases, integrations and Linux.",
+    "exp": "18+ years building commercial software.",
+    "email": "skrzynski.michal@gmail.com"
+  },
+  "sections": {
+    "projects": {
+      "title": "Featured projects"
+    }
+  },
+  "services": {
+    "backend": {
+      "title": "Backend & API",
+      "description": "Java, Spring Boot, .NET, REST API."
+    },
+    "frontend": {
+      "title": "Frontend",
+      "description": "React, TypeScript, responsive interfaces."
+    },
+    "integrtion": {
+      "title": "Integrations",
+      "description": "Automation, external systems, data."
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "actions": {
+    "viewProjects": "View projects",
+    "hireMe": "Hire me",
+    "contactMe": "Contact me"
+  },
+  "footer": {
+    "privacy": "Privacy Policy",
+    "support": "Support my work"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "title": "Privacy Policy",
+  "eyebrow": "DOCUMENT",
+  "intro": "This Privacy Policy applies to the Onyx Box website and open-source projects associated with the <strong><github>Onyx Box</github></strong>.",
+  "sections": [
+    {
+      "title": "1. Data controller",
+      "content": [
+        "The data controller is Michał Skrzyński, creator of projects published under the <strong>Onyx Box</strong> name."
+      ]
+    },
+    {
+      "title": "2. Website hosting",
+      "content": [
+        "This website is hosted through GitHub Pages. GitHub may process technical data required to provide security,",
+        "correct operation and maintenance of its infrastructure.",
+        "Detailed information is available in GitHub's Privacy Statement."
+      ]
+    },
+    {
+      "title": "3. No first-party tracking",
+      "content": [
+        "I do not use my own tracking scripts, mailing-list forms or user databases on this website."
+      ]
+    },
+    {
+      "title": "4. Cookies",
+      "content": [
+        "The website does not use its own marketing cookies. Technical cookies may be used by the hosting platform where",
+        "required to provide the website correctly."
+      ]
+    },
+    {
+      "title": "5. Payments and support",
+      "content": [
+        "If you support my work through Buy Me a Coffee, payment data is processed directly by that external service.",
+        "I do not have access to full payment-card numbers or banking credentials.",
+        "<strong><coffee>Buy Me a Coffee</coffee></strong>"
+      ]
+    },
+    {
+      "title": "6. Contact",
+      "content": [
+        "For questions, contact me by <strong><email>e-mail</email></strong> or through <strong><linkedin>LinkedIn</linkedin></strong>."
+      ]
+    }
+  ],
+  "footer": "Last updated: 2026-07-16",
+  "actions": {
+    "back": "Back to the website"
+  }
+}

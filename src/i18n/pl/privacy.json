@@ -1,0 +1,50 @@
+{
+  "title": "Polityka prywatności",
+  "eyebrow": "DOKUMENT",
+  "intro": "Niniejsza polityka prywatności dotyczy projektów open-source oraz stron powiązanych z profilem GitHub: <strong><github>Onyx Box</github></strong>.",
+  "sections": [
+    {
+      "title": "1. Administrator",
+      "content": [
+        "Administratorem danych jest osoba fizyczna prowadząca projekty open-source na platformie GitHub pod pseudonimem <strong>Onyx-Box</strong>."
+      ]
+    },
+    {
+      "title": "2. Informacje ogólne (GitHub Pages)",
+      "content": [
+        "Ta strona internetowa jest hostowana za pośrednictwem GitHub Pages. GitHub może przetwarzać dane techniczne niezbędne do zapewnienia bezpieczeństwa, prawidłowego działania i konserwacji swojej infrastruktury.",
+        "Szczegółowe informacje można znaleźć w Polityce Prywatności GitHub.,"
+      ]
+    },
+    {
+      "title": "3. Brak zbierania danych własnych",
+      "content": [
+        "Jako autor tego projektu, nie implementuję na tej stronie żadnych własnych skryptów śledzących, formularzy zapisu ani nie gromadzę Twoich danych osobowych w bazach danych."
+      ]
+    },
+    {
+      "title": "4. Pliki Cookies",
+      "content": [
+        "Strona nie wykorzystuje własnych marketingowych plików cookies.",
+        "Techniczne pliki cookies mogą być używane przez platformę hostingową, jeśli są wymagane do prawidłowego działania strony."
+      ]
+    },
+    {
+      "title": "5. Płatności i wsparcie",
+      "content": [
+        "Wsparcie projektu jest realizowane za pośrednictwem serwisu <strong><coffee>Buy Me a Coffee</coffee></strong>.",
+        "Nie mam dostępu do pełnych numerów kart płatniczych ani danych logowania do bankowości."
+      ]
+    },
+    {
+      "title": "6. Kontakt",
+      "content": [
+        "W sprawach dotyczących prywatności możesz skontaktować się ze mną przez <strong><email>e-mail</email></strong> lub <strong><linkedin>LinkedIn</linkedin></strong>."
+      ]
+    }
+  ],
+  "footer": "Ostatnia aktualizacja: 2026-07-16",
+  "actions": {
+    "back": "Wróć na stronę"
+  }
+}

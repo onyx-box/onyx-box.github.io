@@ -1,0 +1,59 @@
+{
+  "name": "Onyx Box",
+  "my-role": "",
+  "": "",
+  "seo": {
+    "home": {
+      "title": "Onyx Box - tworzenie oprogramowania",
+      "description": "Aplikacje webowe, backend, integracje i automatyzacje."
+    },
+    "projects": {
+      "title": "Projekty - Onyx Box",
+      "description": "Wybrane projekty, aplikacje i oprogramowanie opracowane przez Onyx Box."
+    }
+  },
+  "me": {
+    "role": "FULL-STACK DEVELOPER · JAVA / REACT / .NET",
+    "title": "Oprogramowanie dla prawdziwych problemów biznesowych.",
+    "description": "Projektuję i rozwijam aplikacje webowe, backendy, integracje oraz automatyzacje.",
+    "fullName": "Michał Skrzyński",
+    "about": "Pracuję z backendem, frontendem, bazami danych, integracjami i Linuxem.",
+    "exp": "18+ lat tworzenia oprogramowania komercyjnego.",
+    "email": "skrzynski.michal@gmail.com"
+  },
+  "sections": {
+    "projects": {
+      "title": "Wybrane projekty"
+    }
+  },
+  "services": {
+    "backend": {
+      "title": "Backend & API",
+      "description": "Java, Spring Boot, .NET, REST API."
+    },
+    "frontend": {
+      "title": "Frontend",
+      "description": "React, TypeScript, responsywne interfejsy."
+    },
+    "integration": {
+      "title": "Integrations",
+      "description": "Automatyzacje, systemy zewnętrzne, dane."
+    }
+  },
+  "nav": {
+    "home": "Start",
+    "projects": "Projekty",
+    "services": "Usługi",
+    "about": "O mnie",
+    "contact": "Kontakt"
+  },
+  "actions": {
+    "viewProjects": "Zobacz projekty",
+    "hireMe": "Współpraca",
+    "contact": "Kontakt"
+  },
+  "footer": {
+    "privacy": "Polityka prywatności",
+    "support": "Wesprzyj moją pracę"
+  }
+}

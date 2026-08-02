@@ -1,0 +1,29 @@
+{
+  "categories": {
+    "web-application": "Web application",
+    "backend": "Backend system",
+    "integration": "Integration",
+    "automation": "Automation",
+    "wordpress": "WordPress",
+    "open-source": "Open source"
+  },
+  "statuses": {
+    "production": "Production",
+    "active": "Actively developed",
+    "completed": "Completed",
+    "development": "In development"
+  },
+  "items": {
+    "kanister": {
+      "title": "Mam tanio",
+      "summary": "A responsive web application supporting business processes.",
+      "description": "A commercial application built with React and .NET, designed for reliable everyday use.",
+      "role": "Full-stack development and application architecture.",
+      "features": {
+        "responsive": "Responsive interface",
+        "administration": "Administrative workflows",
+        "integration": "Backend API integration"
+      }
+    }
+  }
+}

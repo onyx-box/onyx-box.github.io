@@ -1,0 +1,29 @@
+{
+  "categories": {
+    "web-application": "Aplikacja webowa",
+    "backend": "System backendowy",
+    "integration": "Integracja",
+    "automation": "Automatyzacja",
+    "wordpress": "WordPress",
+    "open-source": "Open source"
+  },
+  "statuses": {
+    "production": "Produkcyjny",
+    "active": "Aktywnie rozwijany",
+    "completed": "Zakończony",
+    "development": "W trakcie rozwoju"
+  },
+  "items": {
+    "kanister": {
+      "title": "Mam tanio",
+      "summary": "Responsywna aplikacja webowa wspierająca procesy biznesowe.",
+      "description": "Komercyjna aplikacja zbudowana w React i .NET, przeznaczona do niezawodnej codziennej pracy.",
+      "role": "Rozwój full-stack oraz architektura aplikacji.",
+      "features": {
+        "responsive": "Responsywny interfejs",
+        "administration": "Procesy administracyjne",
+        "integration": "Integracja z API backendowym"
+      }
+    }
+  }
+}
