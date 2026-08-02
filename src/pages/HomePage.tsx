@@ -5,6 +5,7 @@ import {ProjectCard} from '@/components/projects/ProjectCard';
 import {getProjects} from '@/content/projects';
 import {useLanguage} from '@/hooks/useLanguage';
 import {routeFor} from '@/lib/routes';
+import {services} from '@/content/services';
 
 export function HomePage() {
     const l = useLanguage();
@@ -42,18 +43,15 @@ export function HomePage() {
             <section id="services" className="section container">
                 <h2>{t('nav.services')}</h2>
                 <div className="services">
-                    <article>
-                        <h3>{t('services.backend.title')}</h3>
-                        <p>{t('services.backend.description')}</p>
-                    </article>
-                    <article>
-                        <h3>{t('services.frontend.title')}</h3>
-                        <p>{t('services.frontend.description')}</p>
-                    </article>
-                    <article>
-                        <h3>{t('services.integration.title')}</h3>
-                        <p>{t('services.integration.description')}</p>
-                    </article>
+                    {services.map(({key, icon}) => (
+                        <article key={key}>
+                            <div className="icon">{icon}</div>
+
+                            <h3>{t(`services.${key}.title`)}</h3>
+
+                            <p>{t(`services.${key}.description`)}</p>
+                        </article>
+                    ))}
                 </div>
             </section>
             <section id="about" className="section container">

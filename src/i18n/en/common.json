@@ -25,17 +25,33 @@
     }
   },
   "services": {
+    "custom": {
+      "title": "Custom software development",
+      "description": "Design and development of tailored software solutions for business needs."
+    },
     "backend": {
-      "title": "Backend & API",
-      "description": "Java, Spring Boot, .NET, REST API."
+      "title": "Backend & API Development",
+      "description": "Scalable backend systems, REST APIs and integrations using Java, Spring Boot and .NET."
     },
     "frontend": {
-      "title": "Frontend",
-      "description": "React, TypeScript, responsive interfaces."
+      "title": "Frontend Development",
+      "description": "Modern web applications built with React, TypeScript and responsive design."
     },
-    "integrtion": {
-      "title": "Integrations",
-      "description": "Automation, external systems, data."
+    "integration": {
+      "title": "System Integrations",
+      "description": "Connecting applications, e-commerce platforms, payment gateways and third-party services."
+    },
+    "automation": {
+      "title": "Automation",
+      "description": "Business process automation, data processing and custom development tools."
+    },
+    "consulting": {
+      "title": "Technical consulting",
+      "description": "Architecture reviews, performance optimization and software development guidance."
+    },
+    "modernization": {
+      "title": "Legacy System Modernization",
+      "description": "Upgrading and extending existing enterprise applications without disrupting business operations."
     }
   },
   "nav": {

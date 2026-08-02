@@ -27,17 +27,33 @@
     }
   },
   "services": {
+    "custom": {
+      "title": "Tworzenie oprogramowania na zamówienie",
+      "description": "Projektowanie i tworzenie rozwiązań programistycznych dostosowanych do potrzeb biznesowych."
+    },
     "backend": {
       "title": "Backend & API",
-      "description": "Java, Spring Boot, .NET, REST API."
+      "description": "Skalowalne systemy zaplecza, interfejsy API REST i integracje wykorzystujące Java, Spring Boot i .NET."
     },
     "frontend": {
       "title": "Frontend",
-      "description": "React, TypeScript, responsywne interfejsy."
+      "description": "Nowoczesne aplikacje internetowe tworzone w React, TypeScript i z wykorzystaniem responsywnego designu."
     },
     "integration": {
-      "title": "Integrations",
-      "description": "Automatyzacje, systemy zewnętrzne, dane."
+      "title": "Integracje systemowe",
+      "description": "Łączenie aplikacji, platform e-commerce, bramek płatniczych i usług stron trzecich."
+    },
+    "automation": {
+      "title": "Automation",
+      "description": "Automatyzacja procesów biznesowych, przetwarzanie danych i narzędzia do tworzenia rozwiązań niestandardowych."
+    },
+    "consulting": {
+      "title": "Doradztwo techniczne",
+      "description": "Przeglądy architektury, optymalizacja wydajności i wskazówki dotyczące rozwoju oprogramowania."
+    },
+    "modernization": {
+      "title": "Modernizacja systemów legacy",
+      "description": "Uaktualnianie i rozszerzanie istniejących aplikacji korporacyjnych bez zakłócania działalności biznesowej."
     }
   },
   "nav": {
