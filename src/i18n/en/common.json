@@ -3,6 +3,7 @@
   "my-role": "",
   "competencies": "The most important competencies",
   "cooperation": "Open to B2B cooperation",
+  "location": "Location",
   "seo": {
     "home": {
       "title": "Onyx Box - Software Engineering",
@@ -18,13 +19,30 @@
     "title": "Software engineering for real business problems.",
     "description": "I design and build web applications, backend systems, integrations and automation.",
     "fullName": "Michał Skrzyński",
-    "about": "I work across backend, frontend, databases, integrations and Linux.",
+    "about": "Onyx Box is an independent software-development business based in Gdańsk, Poland. I design and build web applications, backend systems, integrations and automation solutions for businesses.",
     "exp": "18+ years building business software that solves real problems.",
-    "email": "skrzynski.michal@gmail.com"
+    "email": "skrzynski.michal@gmail.com",
+    "location": "Gdańsk, Poland · remote / hybrid"
   },
   "sections": {
     "projects": {
       "title": "Featured projects"
+    },
+    "support": {
+      "title": "Support my open-source work",
+      "description": "I create and maintain software projects, developer tools and technical examples. If you find my work useful, you can support its continued development through Buy Me a Coffee.",
+      "button": "Support my work on Buy Me a Coffee"
+    },
+    "hire": {
+      "title": "HIRE ME",
+      "question": "Need an application, integration or support for an existing\nsystem?",
+      "answer": "I work on B2B projects, technical audits, backend and frontend development,\nintegrations and automation.",
+      "button": "Text me"
+    },
+    "contact": {
+      "title": "CONTACT",
+      "short": "Let’s start with a short\nconversation",
+      "description": "Describe the problem, current technology stack and expected result. I will answer directly and concretely."
     }
   },
   "services": {

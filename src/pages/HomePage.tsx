@@ -30,7 +30,7 @@ export function HomePage() {
                     <div className="hero-links">
                         <a href="https://github.com/onyx-box" target="_blank" rel="noopener">GitHub ↗</a>
                         <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn ↗</a>
-                        <a href="https://buymeacoffee.com/onyxbox" target="_blank" rel="noopener">Buy Me a Coffee ☕</a>
+                        <a href="https://buymeacoffee.com/onyxbox" target="_blank" rel="noopener">{t('sections.support.button')}</a>
                     </div>
                 </div>
                 <aside class="hero-card" aria-label={t('competencies')}>
@@ -67,13 +67,53 @@ export function HomePage() {
                     ))}
                 </div>
             </section>
+
             <section id="about" className="section container">
                 <h2>{t('nav.about')}</h2>
                 <p>{t('me.about')}</p>
             </section>
-            <section id="contact" className="section container">
-                <h2>{t('nav.contact')}</h2>
-                <a href="mailto:{t('me.email')}">{t('me.email')}</a>
+
+            <section id="cooperation" className="section container cta">
+                <div>
+                    <p className="eyebrow">{t('sections.hire.title')}</p>
+                    <h2>{t('sections.hire.question')}</h2>
+                    <p>{t('sections.hire.answer')}</p>
+                </div>
+                <a className="button light" href="#kontakt">{t('sections.hire.button')}</a>
+            </section>
+
+            <section id="kontakt" className="section container contact">
+                <div className="section-heading">
+                    <p className="eyebrow">{t('sections.contact.title')}</p>
+                    <h2>{t('sections.contact.short')}</h2>
+                    <p>{t('sections.contact.description')}</p>
+                </div>
+                <div className="contact-card">
+                    <div className="contact-item">
+                        <strong>Email</strong>
+                        <a href={`mailto:${t('me.email')}`}>{t('me.email')}</a>
+                    </div>
+                    <div className="contact-item">
+                        <strong>GitHub</strong>
+                        <a href="https://github.com/onyx-box" target="_blank" rel="noopener">github.com/onyx-box</a>
+                    </div>
+                    <div className="contact-item">
+                        <strong>LinkedIn</strong>
+                        <a href="https://www.linkedin.com/in/micha%C5%82-skrzy%C5%84ski-23317b11a/" target="_blank"
+                        rel="noopener">{t('me.fullName')}</a>
+                    </div>
+                    <div className="contact-item">
+                        <strong>{t('location')}</strong>{t('me.location')}
+                    </div>
+                </div>
+            </section>
+
+            <section id="support" className="section container">
+                <h2>{t('sections.support.title')}</h2>
+                <p>{t('sections.support.description')}</p>
+                <div>
+                    <a href="https://buymeacoffee.com/onyxbox" target="_blank" rel="noopener">{t('sections.support.button')}</a>
+                </div>
             </section>
         </>
     );

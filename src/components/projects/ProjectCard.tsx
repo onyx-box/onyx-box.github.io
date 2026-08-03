@@ -28,6 +28,10 @@ export function ProjectCard({project}: { project: Project }) {
                     {t(`${project.translationKey}.summary`)}
                 </p>}
 
+                {project.summary && <p>
+                    {project.summary}
+                </p>}
+
                 <div className="tags">
                     {project.stack.map(tag =>
                         <span key={tag}>{tag}</span>
