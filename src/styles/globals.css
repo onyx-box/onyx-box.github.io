@@ -416,8 +416,11 @@ h2 {
     background: var(--accent);
     color: #07110e
 }
+
 .secondary {
-    border: 1px solid var(--line)
+    border: 1px solid var(--line);
+    background: none;
+    color: inherit;
 }
 
 .hero-links {
