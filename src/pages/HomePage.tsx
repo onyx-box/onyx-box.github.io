@@ -33,7 +33,7 @@ export function HomePage() {
                         <a href="https://buymeacoffee.com/onyxbox" target="_blank" rel="noopener">{t('sections.support.button')}</a>
                     </div>
                 </div>
-                <aside class="hero-card" aria-label={t('competencies')}>
+                <aside class="hero-card">
                     <div className="status"><span></span> {t('cooperation')}</div>
                     <strong className="hero-full-name">{t('me.fullName')}</strong>
                     <p>{t('me.exp')}</p>
