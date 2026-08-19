@@ -20,8 +20,8 @@ const source = [{
     "status": "commercial",
     "featured": true,
     "stack": ["React", "TypeScript", ".NET", "MySQL", "REST API", "JWT"],
-    "cover": "/images/projects/kanister/offers-desktop.png",
-    "gallery": ["/images/projects/kanister/offers-desktop.png", "/images/projects/kanister/dealer-dashboard.png", "/images/projects/kanister/mobile-offers.png", "/images/projects/kanister/mobile-fuel-summary.png"]
+    "cover": "/images/projects/kanister/offers-desktop.webp",
+    "gallery": ["/images/projects/kanister/offers-desktop.webp", "/images/projects/kanister/dealer-dashboard.webp", "/images/projects/kanister/mobile-offers.webp", "/images/projects/kanister/mobile-fuel-summary.webp"]
 }, {
     "slug": "stn",
     "title": {"en": "STN Events", "pl": "STN Events"},
@@ -42,8 +42,8 @@ const source = [{
     "status": "commercial",
     "featured": true,
     "stack": ["React", "TypeScript", ".NET", "MySQL", "REST API"],
-    "cover": "/images/projects/stn/events-home-desktop.png",
-    "gallery": ["/images/projects/stn/events-home-desktop.png", "/images/projects/stn/event-details-desktop.png", "/images/projects/stn/events-home-mobile.png", "/images/projects/stn/event-details-mobile.png"]
+    "cover": "/images/projects/stn/events-home-desktop.webp",
+    "gallery": ["/images/projects/stn/events-home-desktop.webp", "/images/projects/stn/event-details-desktop.webp", "/images/projects/stn/events-home-mobile.webp", "/images/projects/stn/event-details-mobile.webp"]
 }, {
     "slug": "sleshy",
     "title": {"en": "Sleshy", "pl": "Sleshy"},
@@ -64,8 +64,8 @@ const source = [{
     "status": "commercial",
     "featured": true,
     "stack": ["Java", "Spring", "React", "PostgreSQL", "WordPress", "Magento", "PrestaShop"],
-    "cover": "/images/projects/sleshy/profile-feed.png",
-    "gallery": ["/images/projects/sleshy/profile-feed.png", "/images/projects/sleshy/campaign-invitations.png", "/images/projects/sleshy/collaborations-dashboard.png", "/images/projects/sleshy/invitation-email.png"]
+    "cover": "/images/projects/sleshy/profile-feed.webp",
+    "gallery": ["/images/projects/sleshy/profile-feed.webp", "/images/projects/sleshy/campaign-invitations.webp", "/images/projects/sleshy/collaborations-dashboard.webp", "/images/projects/sleshy/invitation-email.webp"]
 }, {
     "slug": "evenado",
     "title": {"en": "Evenado", "pl": "Evenado"},
@@ -83,8 +83,8 @@ const source = [{
     "status": "commercial",
     "featured": true,
     "stack": ["React", "TypeScript", ".NET 8", "MySQL", "REST API"],
-    "cover": "/images/projects/evenado/events-list.png",
-    "gallery": ["/images/projects/evenado/events-list.png", "/images/projects/evenado/event-details.png"]
+    "cover": "/images/projects/evenado/events-list.webp",
+    "gallery": ["/images/projects/evenado/events-list.webp", "/images/projects/evenado/event-details.webp"]
 }, {
     "slug": "forigi",
     "title": {"en": "Forigi / Bankier.pl Scraper", "pl": "Forigi / scraper Bankier.pl"},
@@ -105,8 +105,8 @@ const source = [{
     "status": "commercial",
     "featured": false,
     "stack": ["Node.js 18", "SolidJS", "Tailwind CSS", "Vite", "Axios", "Mongoose", "MongoDB", "Yup"],
-    "cover": "/images/projects/forigi/comments-dashboard.png",
-    "gallery": ["/images/projects/forigi/comments-dashboard.png"]
+    "cover": "/images/projects/forigi/comments-dashboard.webp",
+    "gallery": ["/images/projects/forigi/comments-dashboard.webp"]
 }, {
     "slug": "sql-format",
     "title": {"en": "SQLFormat Bash integration", "pl": "Integracja Bash z SQLFormat"},
@@ -150,8 +150,8 @@ const source = [{
     "status": "commercial",
     "featured": false,
     "stack": ["WordPress", "Elementor", "Figma"],
-    "cover": "/images/projects/wordpress/g-biz.png",
-    "gallery": ["/images/projects/wordpress/g-biz.png"]
+    "cover": "/images/projects/wordpress/g-biz.webp",
+    "gallery": ["/images/projects/wordpress/g-biz.webp"]
 }, {
     "slug": "odwazni",
     "title": {"en": "Odważni", "pl": "Odważni"},
@@ -172,8 +172,8 @@ const source = [{
     "status": "commercial",
     "featured": false,
     "stack": ["WordPress", "Elementor", "Figma"],
-    "cover": "/images/projects/wordpress/odwazni.png",
-    "gallery": ["/images/projects/wordpress/odwazni.png"]
+    "cover": "/images/projects/wordpress/odwazni.webp",
+    "gallery": ["/images/projects/wordpress/odwazni.webp"]
 }, {
     "slug": "sleshy-landing",
     "title": {"en": "Sleshy Landing Page", "pl": "Sleshy Landing Page"},
@@ -194,8 +194,8 @@ const source = [{
     "status": "commercial",
     "featured": false,
     "stack": ["WordPress", "Elementor", "Figma"],
-    "cover": "/images/projects/wordpress/sleshy-landing.png",
-    "gallery": ["/images/projects/wordpress/sleshy-landing.png"]
+    "cover": "/images/projects/wordpress/sleshy-landing.webp",
+    "gallery": ["/images/projects/wordpress/sleshy-landing.webp"]
 }] as const;
 
 export function getProjects(lang: Language): Project[] {

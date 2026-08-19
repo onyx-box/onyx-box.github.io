@@ -9,7 +9,7 @@ export function ProjectGallery({images = [], title}: ProjectGalleryProps) {
             <div className="gallery">
                 {images?.map((x, i) =>
                     <a href={x} target="_blank" key={x}>
-                        <img src={x} alt={`${title} screenshot ${i + 1}`}/>
+                        <img src={x} alt={`${title} screenshot ${i + 1}`} loading="lazy"/>
                     </a>)
                 }
             </div>
