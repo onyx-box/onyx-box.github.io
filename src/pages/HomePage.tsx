@@ -7,17 +7,20 @@ import {useLanguage} from '@/hooks/useLanguage';
 import {routeFor} from '@/lib/routes';
 import {services} from '@/content/services';
 import {siteConfig} from '@/content/site/config';
+import {useReveal} from '@/hooks/useReveal';
 
 export function HomePage() {
     const l = useLanguage();
     const {t} = useTranslation();
     const p = getProjects(l).filter(x => x.featured);
+    useReveal();
+
     return (
         <>
             <Seo title={t('seo.home.title')}
                description={t('seo.home.description')}
                path={l === 'pl' ? '/pl/' : '/'}/>
-            <section className="hero container">
+            <section className="hero container reveal">
                 <div>
                     <p className="eyebrow">
                         {t('me.role')}
@@ -44,7 +47,7 @@ export function HomePage() {
                     </div>
                 </aside>
             </section>
-            <section className="section dark">
+            <section className="section dark reveal">
                 <div className="container">
                     <h2>{t('sections.projects.title')}</h2>
                     <div className="grid">
@@ -54,7 +57,7 @@ export function HomePage() {
                     </div>
                 </div>
             </section>
-            <section id="services" className="section container">
+            <section id="services" className="section container reveal">
                 <h2>{t('nav.services')}</h2>
                 <div className="services">
                     {services.map(({key, icon}) => (
@@ -69,12 +72,12 @@ export function HomePage() {
                 </div>
             </section>
 
-            <section id="about" className="section container">
+            <section id="about" className="section container reveal">
                 <h2>{t('nav.about')}</h2>
                 <p>{t('me.about')}</p>
             </section>
 
-            <section id="cooperation" className="section container cta">
+            <section id="cooperation" className="section container cta reveal">
                 <div>
                     <p className="eyebrow">{t('sections.hire.title')}</p>
                     <h2>{t('sections.hire.question')}</h2>
@@ -83,7 +86,7 @@ export function HomePage() {
                 <a className="button light" href="#contact">{t('sections.hire.button')}</a>
             </section>
 
-            <section id="contact" className="section container contact">
+            <section id="contact" className="section container contact reveal">
                 <div className="section-heading">
                     <p className="eyebrow">{t('sections.contact.title')}</p>
                     <h2>{t('sections.contact.short')}</h2>
@@ -109,7 +112,7 @@ export function HomePage() {
                 </div>
             </section>
 
-            <section id="support" className="section container">
+            <section id="support" className="section container reveal">
                 <h2>{t('sections.support.title')}</h2>
                 <p>{t('sections.support.description')}</p>
                 <div>

@@ -15,7 +15,7 @@ export function ProjectDetailsPage() {
         <>
             <article className="page container">
                 <Link to={routeFor(l, 'projects')}>← {t('nav.projects')}</Link>
-                <section className="detail">
+                <section className="detail reveal">
                     <div>
                         <p className="eyebrow">{p.type}</p>
                         <h1>{p.title}</h1>

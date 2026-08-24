@@ -5,6 +5,7 @@ import {getProjects} from '@/content/projects';
 import {useLanguage} from '@/hooks/useLanguage';
 import type {ProjectCategory} from '@/types/project';
 import {useTranslation} from "react-i18next";
+import {useReveal} from "@/hooks/useReveal";
 
 export function ProjectsPage() {
     const l = useLanguage();
@@ -19,9 +20,11 @@ export function ProjectsPage() {
         'wordpress',
         'open-source'
     ] as const;
+    useReveal();
+
     return (
         <>
-            <section className="page container">
+            <section className="page container reveal">
                 <Seo title={t('seo.projects.title')} description={t('seo.projects.description')} path={l === 'pl' ? '/pl/projekty' : '/projects'}/>
                 <h1>{t('nav.projects')}</h1>
                 <div className="filters">

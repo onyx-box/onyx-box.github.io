@@ -26,7 +26,7 @@ export function PrivacyPage() {
             <article className="page container document">
                 <p className="eyebrow">{t('eyebrow')}</p>
 
-                <p className="document-intro">
+                <p className="document-intro reveal">
                     <Trans
                         ns="privacy"
                         i18nKey="intro"
@@ -43,7 +43,7 @@ export function PrivacyPage() {
                     />
                 </p>
 
-                <div className="document-sections">
+                <div className="document-sections reveal">
                     {sections.map((section, sectionIndex) => (
                         <section
                             className="document-section"
@@ -89,7 +89,7 @@ export function PrivacyPage() {
                         </section>
                     ))}
                 </div>
-                <footer className="document-footer">
+                <footer className="document-footer reveal">
                     {t('footer')}
                 </footer>
 

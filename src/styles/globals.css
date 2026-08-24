@@ -7,6 +7,7 @@
     --muted: #a8b5c4;
     --line: #263547;
     --panel: #121c28;
+    --panel2: #182331;
     --border-color: #2a3a49;
     --text-primary: #e7edf4;
     --text-secondary: #e7edf4;
@@ -14,6 +15,10 @@
 
 * {
     box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth
 }
 
 body {
@@ -345,14 +350,29 @@ h2 {
 }
 
 .reveal {
-    opacity: 0;
-    transform: translateY(18px);
-    transition: .65s ease;
-}
-
-.reveal.visible {
     opacity: 1;
     transform: none;
+}
+
+.js .reveal {
+    opacity: 0;
+    transform: translateY(18px);
+    transition:
+            opacity 0.65s ease,
+            transform 0.65s ease;
+}
+
+.js .reveal.visible {
+    opacity: 1;
+    transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .reveal-ready .reveal {
+        opacity: 1;
+        transform: none;
+        transition: none;
+    }
 }
 
 .status {
@@ -389,7 +409,7 @@ h2 {
         scroll-behavior: auto;
     }
 
-    .reveal {
+    .js .reveal {
         opacity: 1;
         transform: none;
         transition: none;
@@ -551,4 +571,22 @@ h2 {
 
 .contact-item span {
     color: var(--text-secondary);
+}
+
+.language-switch {
+    display: flex;
+    gap: 7px;
+    margin-left: 14px
+}
+
+.language-switch a {
+    padding: 4px 7px;
+    border: 1px solid var(--line);
+    border-radius: 7px;
+    color: var(--muted)
+}
+
+.language-switch a[aria-current="page"] {
+    color: var(--text);
+    border-color: var(--accent)
 }
