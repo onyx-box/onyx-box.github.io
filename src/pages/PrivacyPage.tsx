@@ -1,6 +1,7 @@
 import { Trans, useTranslation } from 'react-i18next';
 import { useLanguage } from '@/hooks/useLanguage';
 import { routeFor } from '@/lib/routes';
+import {siteConfig} from '@/content/site/config';
 
 interface PrivacySection {
     title: string;
@@ -32,7 +33,7 @@ export function PrivacyPage() {
                         components={{
                             github: (
                                 <a
-                                    href="https://github.com/onyx-box"
+                                    href={siteConfig.github}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 />
@@ -58,7 +59,7 @@ export function PrivacyPage() {
                                         components={{
                                             github: (
                                                 <a
-                                                    href="https://github.com/onyx-box"
+                                                    href={siteConfig.github}
                                                     target="_blank"
                                                     rel="noopener noreferrer"
                                                 />
@@ -68,14 +69,14 @@ export function PrivacyPage() {
                                             ),
                                             linkedin: (
                                                 <a
-                                                    href="https://www.linkedin.com/in/micha%C5%82-skrzy%C5%84ski-23317b11a/"
+                                                    href={siteConfig.linkedin}
                                                     target="_blank"
                                                     rel="noopener noreferrer"
                                                 />
                                             ),
                                             coffee: (
                                                 <a
-                                                    href="https://buymeacoffee.com/onyxbox"
+                                                    href={siteConfig.buyMeACoffee}
                                                     target="_blank"
                                                     rel="noopener noreferrer"
                                                 />

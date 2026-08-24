@@ -90,5 +90,12 @@
   "footer": {
     "privacy": "Polityka prywatności",
     "support": "Wesprzyj moją pracę"
+  },
+  "filters": {
+    "all": "Wszystkie",
+    "enterprise": "Systemy biznesowe",
+    "web-application": "Aplikacje webowe",
+    "wordpress": "WordPress",
+    "open-source": "Open source"
   }
 }

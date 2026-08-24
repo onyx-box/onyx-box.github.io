@@ -1,1 +1,1 @@
-export const siteUrl = 'https://onyx-box.github.io';
+export const siteUrl = 'https://onyxbox.pl';

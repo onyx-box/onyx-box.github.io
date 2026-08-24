@@ -6,6 +6,7 @@ import {getProjects} from '@/content/projects';
 import {useLanguage} from '@/hooks/useLanguage';
 import {routeFor} from '@/lib/routes';
 import {services} from '@/content/services';
+import {siteConfig} from '@/content/site/config';
 
 export function HomePage() {
     const l = useLanguage();
@@ -28,9 +29,9 @@ export function HomePage() {
                         <a className="button secondary" href="#contact">Let’s talk</a>
                     </div>
                     <div className="hero-links">
-                        <a href="https://github.com/onyx-box" target="_blank" rel="noopener">GitHub ↗</a>
-                        <a href="https://www.linkedin.com/in/michal-skrzynski-dev/" target="_blank" rel="noopener">LinkedIn ↗</a>
-                        <a href="https://buymeacoffee.com/onyxbox" target="_blank" rel="noopener">{t('sections.support.button')}</a>
+                        <a href={siteConfig.github} target="_blank" rel="noopener">GitHub ↗</a>
+                        <a href={siteConfig.linkedin} target="_blank" rel="noopener">LinkedIn ↗</a>
+                        <a href={siteConfig.buyMeACoffee} target="_blank" rel="noopener">{t('sections.support.button')}</a>
                     </div>
                 </div>
                 <aside className="hero-card">
@@ -95,11 +96,11 @@ export function HomePage() {
                     </div>
                     <div className="contact-item">
                         <strong>GitHub</strong>
-                        <a href="https://github.com/onyx-box" target="_blank" rel="noopener">github.com/onyx-box</a>
+                        <a href={siteConfig.github} target="_blank" rel="noopener">github.com/onyx-box</a>
                     </div>
                     <div className="contact-item">
                         <strong>LinkedIn</strong>
-                        <a href="https://www.linkedin.com/in/michal-skrzynski-dev/" target="_blank"
+                        <a href={siteConfig.linkedin} target="_blank"
                         rel="noopener">{t('me.fullName')}</a>
                     </div>
                     <div className="contact-item">
@@ -112,7 +113,7 @@ export function HomePage() {
                 <h2>{t('sections.support.title')}</h2>
                 <p>{t('sections.support.description')}</p>
                 <div>
-                    <a href="https://buymeacoffee.com/onyxbox" target="_blank" rel="noopener">{t('sections.support.button')}</a>
+                    <a href={siteConfig.buyMeACoffee} target="_blank" rel="noopener">{t('sections.support.button')}</a>
                 </div>
             </section>
         </>

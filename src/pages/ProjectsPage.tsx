@@ -12,6 +12,13 @@ export function ProjectsPage() {
     const [c, setC] = useState<ProjectCategory | 'all'>('all');
     const all = getProjects(l);
     const list = c === 'all' ? all : all.filter(x => x.category === c);
+    const categories = [
+        'all',
+        'enterprise',
+        'web-application',
+        'wordpress',
+        'open-source'
+    ] as const;
     return (
         <>
             <section className="page container">
@@ -19,8 +26,10 @@ export function ProjectsPage() {
                 <h1>{t('nav.projects')}</h1>
                 <div className="filters">
                     {
-                        (['all', 'enterprise', 'web-application', 'wordpress', 'open-source'] as const).map(x =>
-                            <button onClick={() => setC(x)} className={c === x ? 'active' : ''} key={x}>{x}</button>)
+                        (categories).map(category =>
+                            <button onClick={() => setC(category)} className={c === category ? 'active' : ''} key={category}>
+                                {t(`filters.${category}`)}
+                            </button>)
                     }
                 </div>
                 <div className="grid">

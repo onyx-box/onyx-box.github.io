@@ -1,6 +1,7 @@
 {
   "categories": {
     "web-application": "Web application",
+    "enterprise": "Business Systems",
     "backend": "Backend system",
     "integration": "Integration",
     "automation": "Automation",
@@ -11,7 +12,8 @@
     "production": "Production",
     "active": "Actively developed",
     "completed": "Completed",
-    "development": "In development"
+    "development": "In development",
+    "commercial": "Commercial project"
   },
   "items": {
     "kanister": {
