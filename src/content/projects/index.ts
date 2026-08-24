@@ -1,7 +1,7 @@
 import type {Language, Project} from '@/types/project';
 
 const source = [{
-    "slug": "mam tanio",
+    "slug": "mam-tanio",
     "title": {"en": "Mam tanio", "pl": "Mam tanio"},
     "type": {"en": "Responsive web application", "pl": "Responsywna aplikacja webowa"},
     "summary": {

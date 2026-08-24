@@ -29,7 +29,7 @@ export function HomePage() {
                     </div>
                     <div className="hero-links">
                         <a href="https://github.com/onyx-box" target="_blank" rel="noopener">GitHub ↗</a>
-                        <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn ↗</a>
+                        <a href="https://www.linkedin.com/in/michal-skrzynski-dev/" target="_blank" rel="noopener">LinkedIn ↗</a>
                         <a href="https://buymeacoffee.com/onyxbox" target="_blank" rel="noopener">{t('sections.support.button')}</a>
                     </div>
                 </div>
@@ -79,10 +79,10 @@ export function HomePage() {
                     <h2>{t('sections.hire.question')}</h2>
                     <p>{t('sections.hire.answer')}</p>
                 </div>
-                <a className="button light" href="#kontakt">{t('sections.hire.button')}</a>
+                <a className="button light" href="#contact">{t('sections.hire.button')}</a>
             </section>
 
-            <section id="kontakt" className="section container contact">
+            <section id="contact" className="section container contact">
                 <div className="section-heading">
                     <p className="eyebrow">{t('sections.contact.title')}</p>
                     <h2>{t('sections.contact.short')}</h2>
@@ -99,7 +99,7 @@ export function HomePage() {
                     </div>
                     <div className="contact-item">
                         <strong>LinkedIn</strong>
-                        <a href="https://www.linkedin.com/in/micha%C5%82-skrzy%C5%84ski-23317b11a/" target="_blank"
+                        <a href="https://www.linkedin.com/in/michal-skrzynski-dev/" target="_blank"
                         rel="noopener">{t('me.fullName')}</a>
                     </div>
                     <div className="contact-item">
