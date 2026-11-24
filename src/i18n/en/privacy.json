@@ -18,9 +18,9 @@
       ]
     },
     {
-      "title": "3. No first-party tracking",
+      "title": "3. Contact form",
       "content": [
-        "I do not use my own tracking scripts, mailing-list forms or user databases on this website."
+        "The information you enter in the contact form, including your email address and message, is sent through Formspree and used to handle your enquiry and reply."
       ]
     },
     {
@@ -45,7 +45,7 @@
       ]
     }
   ],
-  "footer": "Last updated: 2026-07-16",
+  "footer": "Last updated: 2026-11-24",
   "actions": {
     "back": "Back to the website"
   }

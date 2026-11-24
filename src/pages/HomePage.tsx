@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import { ContactForm } from '@/components/contact/ContactForm';
 import { Seo } from '@/components/seo/Seo';
 import { ProjectCard } from '@/components/projects/ProjectCard';
 import { getProjects } from '@/content/projects';
@@ -115,6 +116,7 @@ export function HomePage() {
           <h2>{t('sections.contact.short')}</h2>
           <p>{t('sections.contact.description')}</p>
         </div>
+        <ContactForm />
         <div className="contact-card">
           <div className="contact-item">
             <strong>Email</strong>

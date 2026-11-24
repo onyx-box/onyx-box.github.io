@@ -42,8 +42,17 @@
     "contact": {
       "title": "CONTACT",
       "short": "Let’s start with a short\nconversation",
-      "description": "Describe the problem, current technology stack and expected result. I will answer directly and concretely."
+      "description": "Briefly describe what you want to build, improve or integrate."
     }
+  },
+  "contactForm": {
+    "name": "Name or company (optional)",
+    "email": "Email address",
+    "message": "How can I help?",
+    "submit": "Send message",
+    "sending": "Sending…",
+    "success": "Thank you. Your message was sent.",
+    "error": "Check that your message has some text and try again, or use the email address in this section."
   },
   "services": {
     "custom": {
