@@ -17,9 +17,9 @@
       ]
     },
     {
-      "title": "3. Brak zbierania danych własnych",
+      "title": "3. Formularz kontaktowy",
       "content": [
-        "Jako autor tego projektu, nie implementuję na tej stronie żadnych własnych skryptów śledzących, formularzy zapisu ani nie gromadzę Twoich danych osobowych w bazach danych."
+        "Dane wpisane w formularzu, w tym adres e-mail i treść wiadomości, są przekazywane za pośrednictwem Formspree i wykorzystywane do obsługi zgłoszenia oraz udzielenia odpowiedzi."
       ]
     },
     {
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "footer": "Ostatnia aktualizacja: 2026-07-16",
+  "footer": "Ostatnia aktualizacja: 2026-11-24",
   "actions": {
     "back": "Wróć na stronę"
   }

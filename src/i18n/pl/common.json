@@ -42,8 +42,17 @@
     "contact": {
       "title": "KONTAKT",
       "short": "Zacznijmy od krótkiej rozmowy",
-      "description": "Opisz problem, obecny stos technologiczny i oczekiwany rezultat. Odpowiem konkretnie - bez sprzedażowego dymu."
+      "description": "Opisz krótko, co chcesz zbudować, poprawić lub zintegrować."
     }
+  },
+  "contactForm": {
+    "name": "Imię lub firma (opcjonalnie)",
+    "email": "Adres e-mail",
+    "message": "W czym mogę pomóc?",
+    "submit": "Wyślij wiadomość",
+    "sending": "Wysyłanie…",
+    "success": "Dziękuję, wiadomość została wysłana.",
+    "error": "Sprawdź, czy wiadomość zawiera treść, i spróbuj ponownie lub napisz bezpośrednio na adres obok."
   },
   "services": {
     "custom": {
